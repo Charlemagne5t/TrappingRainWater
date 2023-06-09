@@ -16,4 +16,11 @@ public class SolutionTest {
         int output = 9;
         Assert.assertEquals(output, new Solution().trap(height));
     }
+
+    @Test
+    public void trapTest3() {
+        int[] height = {4, 2, 3};
+        int output = 1;
+        Assert.assertEquals(output, new Solution().trap(height));
+    }
 }
